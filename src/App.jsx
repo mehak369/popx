@@ -12,7 +12,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Onboarding />} />
             <Route path="/login" element={<Login />} />
-            {/* 2. Use the component name exactly as imported above */}
             <Route path="/signup" element={<SignUp />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
