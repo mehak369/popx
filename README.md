@@ -1,16 +1,34 @@
-# React + Vite
+# PopX - UI/UX Design Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive mobile application interface built with **React JS** and **Tailwind CSS**. This project demonstrates the implementation of a modern onboarding flow, including user registration, login, and profile management based on Adobe XD design specifications.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**[View Live Project on Vercel](https://your-vercel-link.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
+- **Pixel-Perfect UI:** Closely followed design specs for spacing, typography, and color schemes (Hex: `#6C25FF`, `#F7F8F9`, etc.).
+- **Responsive Layout:** The mobile interface is centered on the screen to provide a realistic app-viewing experience on desktop and mobile browsers.
+- **Seamless Navigation:** Integrated **React Router v6** for smooth transitions between Onboarding, Login, Signup, and Profile pages.
+- **Custom UI Components:**
+  - **Floating Label Inputs:** Custom-built text fields where labels sit on the border line.
+  - **Interactive Profile:** Includes a circular profile image with a camera icon overlay and account details.
+  - **Themed Buttons:** Context-aware button styling (Primary purple vs. Inactive grey).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+* **Frontend Library:** React.js
+* **Styling:** Tailwind CSS (for utility-first, rapid UI development)
+* **Routing:** React Router DOM
+* **Icons:** HeroIcons / SVG
+* **Hosting:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/popx-react-assignment.git](https://github.com/your-username/popx-react-assignment.git)
