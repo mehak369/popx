@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import CustomInput from '../components/CustomInput';
 import PrimaryButton from '../components/PrimaryButton';
 
-const Signup = () => {
+const SignUp = () => {
   const navigate = useNavigate();
   return (
     <div className="p-5 pt-10 bg-[#F7F8F9] h-full flex flex-col">
@@ -32,4 +32,5 @@ const Signup = () => {
     </div>
   );
 };
-export default Signup;
+
+export default SignUp;
